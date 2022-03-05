@@ -253,7 +253,7 @@ You can  set up a custom reply message using `REPLY_MESSAGE` confug.__
 
 """
     SCHEDULER_HELP="""
-__VCPlayer allows you to schedule a stream. 
+__KyuraStream allows you to schedule a stream. 
 This means you can schedule a stream for a future date and on the scheduled date, stream will be played automatically.
 At present you can schedule a stream for even one year!!. Make sure you have set up a databse, else you will loose your schedules whenever the player restarts. __
 
@@ -273,7 +273,7 @@ Command: **/cancelall**
 __Cancel all the scheduled streams__
 """
     RECORDER_HELP="""
-__With VCPlayer you can easily record all your video chats.
+__With KyuraStream you can easily record all your video chats.
 By default telegram allows you to record for a maximum duration of 4 hours. 
 An attempt to overcome this limit has been made by automatically restarting the recording after  4 hours__
 
@@ -290,7 +290,7 @@ To turn off the custom title, use `/rtitle False `__
 4. Recording Dumb: __You can set up forwarding all your recordings to a channel, this will be useful since otherwise recordings are sent to saved messages of streaming account.
 Setup using `RECORDING_DUMP` config.__
 
-⚠️ If you start a recording with vcplayer, make sure you stop the same with vcplayer.
+⚠️ If you start a recording with vcplayer, make sure you stop the same with KyuraStream.
 
 """
 
@@ -335,7 +335,7 @@ __Use /player to show with control buttons__
 """
 
     ADMIN_HELP="""
-__VCPlayer allows to control admins, that is you can add admins and remove them easily.
+__KyuraStream allows to control admins, that is you can add admins and remove them easily.
 It is recommended to use a MongoDb database for better experience, else all you admins will get reset after restart.__
 
 Command: **/vcpromote**
@@ -350,7 +350,7 @@ __Refresh the admin list of chat__
 
     MISC_HELP="""
 Command: **/export**
-__VCPlayer allows you to export your current playlist for future use.__
+__KyuraStream allows you to export your current playlist for future use.__
 __A json file will be sent to you and the same can be used along /import command.__
 
 Command : **/logs**
