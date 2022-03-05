@@ -1,7 +1,7 @@
 {
-    "name": "Stinky_VideoStream",
+    "name": "Kyura-Stream",
     "description": "Telegram bot to stream video in telegram VC",
-    "repository": "https://github.com/Stinkyrz/Stinky_VideoStream",
+    "repository": "https://github.com/Kyuraxp/kyura-stream",
     "stack": "container",
     "keywords": [
       "telegram",
